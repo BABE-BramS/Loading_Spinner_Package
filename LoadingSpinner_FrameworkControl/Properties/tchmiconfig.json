@@ -84,6 +84,10 @@
   },
   "packages": [
     {
+      "name": "Loading_Spinner_Package",
+      "basePath": "/Loading_Spinner_Package"
+    },
+    {
       "name": "Beckhoff.TwinCAT.HMI.Controls",
       "basePath": "/Beckhoff.TwinCAT.HMI.Controls"
     },

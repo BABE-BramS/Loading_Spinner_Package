@@ -3309,6 +3309,8 @@
         "/": "..\\..\\LoadingSpinner_FrameworkControl\\",
         "/Beckhoff.TwinCAT.HMI.Controls": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.758.8\\runtimes\\native1.12-tchmi",
         "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.758.8\\runtimes\\native1.12-tchmi",
+        "/LoadingSpinner": "..\\..\\LoadingSpinner",
+        "/Loading_Spinner_Package": "..\\..\\Loading_Spinner_Package",
         "/bin": "..\\..\\LoadingSpinner_FrameworkControl\\bin\\",
         "/bin/framework": "..\\..\\LoadingSpinner_FrameworkControl\\bin\\framework",
         "/framework": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.758.8\\runtimes\\native1.12-tchmi"

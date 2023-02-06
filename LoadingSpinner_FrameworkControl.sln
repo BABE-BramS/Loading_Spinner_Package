@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.2092
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FE7A1B72-C5B7-4D7C-BB7D-76384D4DE8E1}") = "LoadingSpinner_FrameworkControl", "LoadingSpinner_FrameworkControl\LoadingSpinner_FrameworkControl.hmiproj", "{F34142B8-0E6A-4D6D-8935-36E45EBC12B4}"
 EndProject
+Project("{3B740506-4966-4147-AB1F-357FE08946EA}") = "Loading_Spinner_Package", "Loading_Spinner_Package\Loading_Spinner_Package.hmiextproj", "{0F88196E-C643-4D0D-B46B-D06BDC7A5BF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|TwinCAT HMI = Debug|TwinCAT HMI
@@ -15,6 +17,10 @@ Global
 		{F34142B8-0E6A-4D6D-8935-36E45EBC12B4}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
 		{F34142B8-0E6A-4D6D-8935-36E45EBC12B4}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
 		{F34142B8-0E6A-4D6D-8935-36E45EBC12B4}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+		{0F88196E-C643-4D0D-B46B-D06BDC7A5BF4}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{0F88196E-C643-4D0D-B46B-D06BDC7A5BF4}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{0F88196E-C643-4D0D-B46B-D06BDC7A5BF4}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{0F88196E-C643-4D0D-B46B-D06BDC7A5BF4}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

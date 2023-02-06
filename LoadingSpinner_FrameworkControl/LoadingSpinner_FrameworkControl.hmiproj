@@ -393,6 +393,12 @@
     </Content>
     <Folder Include="Themes\Base\Images\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Loading_Spinner_Package\Loading_Spinner_Package.hmiextproj">
+      <Name>Loading_Spinner_Package</Name>
+      <Project>{0f88196e-c643-4d0d-b46b-d06bdc7a5bf4}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>

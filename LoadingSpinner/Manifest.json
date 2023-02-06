@@ -1,0 +1,23 @@
+﻿{
+  "modules": [
+    {
+      "type": "Package",
+      "nugetId": "Beckhoff.TwinCAT.HMI.Framework"
+    },
+    {
+      "type": "Control",
+      "basePath": "./LoadingSpinner1",
+      "descriptionFile": "Description.json",
+      "toolboxCategory": ""
+    }
+  ],
+  "provideMetadata": {
+    "toolbox": {
+      "LoadingSpinner": {
+        "200": "LoadingSpinner"
+      }
+    }
+  },
+  "$schema": ".hmiframework/Schema/Manifest.Schema.json",
+  "apiVersion": 1
+}

@@ -2591,6 +2591,12 @@
         }
       }
     },
+    "TcHmi.Controls.Loading_Spinner_Package.LoadingSpinner": {
+      "type": "object",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkControlType": "LoadingSpinner",
+      "frameworkControlNamespace": "TcHmi.Controls.Loading_Spinner_Package"
+    },
     "TcHmi.Controls.Beckhoff.TcHmiButton": {
       "$schema": "http://json-schema.org/draft-04/schema",
       "type": "object",
