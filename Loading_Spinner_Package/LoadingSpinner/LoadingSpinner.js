@@ -31,6 +31,7 @@ var TcHmi;
                     /** Call base class constructor */
                     super(element, pcElement, attrs);
                     this.__LoadingSpinnerSpin = false;
+                    this.__LoadingSpinnerBorderWidth;
                 }
                 /**
                   * If raised, the control object exists in control cache and constructor of each inheritation level was called.
@@ -111,6 +112,25 @@ var TcHmi;
                     } else {
                         this.__spinner.toggleClass("running");
                     }
+                }
+                getLoadingSpinnerBorderWidth() {
+                    return this.__LoadingSpinnerBorderWidth;
+                }
+                setLoadingSpinnerBorderWidth(valueNew) {
+                    var convertedValue = TcHmi.ValueConverter.toNumber(valueNew);
+                    if (convertedValue === null) {
+                        convertedValue = this.getAttributeDefaultValueInternal("BorderWidth");
+                    }
+                    if (convertedValue === this.__LoadingSpinnerBorderWidth) {
+                        return;
+                    }
+                    this.__LoadingSpinnerBorderWidth = convertedValue;
+                    TcHmi.EventProvider.raise(this.getId() + ".onFunctionResultChanged", ["getLoadingSpinnerBorderWidth"]);
+                    this.__processLoadingSpinnerBorderWidth();
+                }
+                __processLoadingSpinnerBorderWidth() {
+                    var r = document.querySelector(':root');
+                    r.style.setProperty('--spinner-border-width', this.__LoadingSpinnerBorderWidth + "px");
                 }
             }
             Loading_Spinner_Package.LoadingSpinner = LoadingSpinner;
